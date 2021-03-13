@@ -12,6 +12,11 @@ One should be well versed with basic concepts of Operating Systems like
 * Networking basics like TCP/IP & UDP, CIDR 
 * Concurrency
 
+### Introducing Distributed System
+
+A nice article to start the journey of understanding distributed system.
+* https://www.freecodecamp.org/news/a-thorough-introduction-to-distributed-systems-3b91562c9b3c/
+
 ### Concepts
 
 #### Scaling
