@@ -1,3 +1,5 @@
+
+
 ### Fallacies of distributed systems
 
 One should be clear about some of the wrong assumptions we programmer/developers make about distributed systems
