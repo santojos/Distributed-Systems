@@ -1,4 +1,4 @@
-## Random Networrking Concepts 
+## Random Networking Concepts 
 
  
  <img src="https://github.com/santojos/Distributed-Systems/blob/main/Concepts/Networking/OSI-model.png" width="800" height="550">
