@@ -25,7 +25,7 @@ A nice article to start the journey of understanding distributed system.
 
 ### Distributed Data Stores
 
-* CAP Theorem
+* CAP Theorem : https://github.com/santojos/Distributed-Systems/blob/main/CAP%20Theorem.md
 
 #### Scaling
 #### Consistency
@@ -35,7 +35,7 @@ A nice article to start the journey of understanding distributed system.
 
 #### Distributed Consensus
 
-* http://thesecretlivesofdata.com/raft/
+* Raft : http://thesecretlivesofdata.com/raft/
 * Paxos 
 
 #### Fault Tolerance
