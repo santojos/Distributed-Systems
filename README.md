@@ -25,13 +25,19 @@ A nice article to start the journey of understanding distributed system.
 
 ### Distributed Data Stores
 
+* CAP Theorem
 
 #### Scaling
 #### Consistency
 #### Availability
 #### Partitioning or sharding
 #### Replication
-#### Consensus
+
+#### Distributed Consensus
+
+* http://thesecretlivesofdata.com/raft/
+* Paxos 
+
 #### Fault Tolerance
 #### Latency
 #### Network Partition
