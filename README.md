@@ -41,5 +41,4 @@ A nice article to start the journey of understanding distributed system.
 
 ### Languages 
 
-#### Earlang 
-#### Go 
+#### Earlang  & Go 
