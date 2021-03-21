@@ -13,28 +13,23 @@ CAP theroem states that _one can only choose only 2 out of the above 3 in a data
 
 
 #### The Paradox
-CAP theorem say pick two from CAP
+CAP theorem say pick two from **CAP**
+ 
 
-
-CP -> Consistent and Partition tolerant, but unavailable. What use is a DB that is unavailable?
-CA -> Consistent and Available, but not partition tolerant. So, does it mean you must run it on a single node?
-AP -> Available and Partition Tolerant, but inconsistent. That kind of makes sense, I write some data, and until that is written and propagated, I might get "inconsistent" reads.
-And you see the problem. Two of three combinations does not hold up.
-
-**Lets Pick CP**
+ ▪️ **Lets Pick CP**
 - [x] Consistent
 - [x] Partition Tolerant
 
-  An Unavialbe data store cannot be an option, so can not choose Consistent and Partition tolerant.
+  An Unavilalbe data store cannot be an option, so can not choose Consistent and Partition tolerant.
  
- **Lets Pick CA**
+ ▪️ **Lets Pick CA**
 - [x] Consistent
 - [x] Available
 
 No partition means single node 
 
 
-**Lets Pick AP**
+▪️ **Lets Pick AP**
 - [x] Available
 - [x] Partition Tolerant
 
