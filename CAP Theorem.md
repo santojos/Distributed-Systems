@@ -1,7 +1,7 @@
 ## CAP Theorem
 
 
-### How is CAP Interpreted
+#### How is CAP Interpreted
 
 **Consistency**: A certain read must contain the most recently written data.
 
@@ -12,7 +12,7 @@
 CAP theroem states that _one can only choose only 2 out of the above 3 in a data store._
 
 
-### The Paradox
+#### The Paradox
 CAP theorem say pick two from CAP
 
 
@@ -43,11 +43,11 @@ We might get inconsistent data
 Pratically two of the three combinations does not hold up.
 
 
-### PACELC Theroem
+#### PACELC Theroem
 
 
-### The PACELC Theorem and how various data stores fit/
+#### The PACELC Theorem and how various data stores fit/
 
-### References
+#### References
 
 https://www.cs.umd.edu/~abadi/papers/abadi-pacelc.pdf
