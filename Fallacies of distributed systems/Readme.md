@@ -19,6 +19,13 @@ Some good explanation with examples follows here -> https://pages.cs.wisc.edu/~z
 
 ### Network is Reliable
 
+**Some challanges:**
+1. Network is shared in big bad internet
+2. On Hardware side : Power failure , Hardware going down, 
+3. On Software Side : Message dropping over network, mesages ques going down, no backup, bugs in code
+	   and Security Threats like DDos attacks, 
+4. Decentralized distribured network on which some side is not in out control, say we integrated wiht a third part PG
+
 
 ---
 
