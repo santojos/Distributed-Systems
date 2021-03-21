@@ -28,7 +28,10 @@ Some good explanation with examples follows here -> https://pages.cs.wisc.edu/~z
 
 ![Time Scale of System latencies] (https://twitter.com/PieCalculus/status/459485747842523136/photo/1)
 
-  <script src="https://gist.github.com/jboner/2841832.js"></script>
+[gist]http://gist.github.com/f48b7279a8fde3341b159aee47fefc75[/gist]
+
+<script src="https://gist.github.com/santojos/f48b7279a8fde3341b159aee47fefc75.js"></script>
+ 
 
 Consider below to decrese latency
 * Avoid cross regional calls 
