@@ -5,17 +5,15 @@
 
 **Consistency**: A certain read must contain the most recently written data.
 
-**Availability**: The system must respond with data (if available), It must be up al the time
+**Availability**: The system must respond with data (if available), It must be up all the time
 
 **Partition Tolerance**: The system can function with partitions, i.e. the data is stored across multiple nodes. A network failure that splits the processing nodes into 2 groups which cannot talk to each other, then the processing should continue in both subgroups.
 
-CAP theroem states that _one can only choose only 2 out of the above 3 in a data store._
-
+CAP theroem states that _one can only choose 2 out of the above 3 in a data store._
 
 #### The Paradox
 CAP theorem say pick two from **CAP**
  
-
  ▪️ **Lets Pick CP**
 - [x] Consistent
 - [x] Partition Tolerant
@@ -26,22 +24,23 @@ CAP theorem say pick two from **CAP**
 - [x] Consistent
 - [x] Available
  
-  No partition means single node, does not make sense
+  No partition means single node, does not make sense in distributed system
 
 
 ▪️ **Lets Pick AP**
 - [x] Available
 - [x] Partition Tolerant
   
-  We might get inconsistent stale data instead of no data. _Pratically two of the three combinations does not hold up._
+  We might get inconsistent stale data instead of no data.
+  
+ _Pratically two of the three combinations does not hold up._
 
  
 #### What makes sense
 
-**CP** looses availability only when there is a network partition, **CA** are non partitin tolerent and in case there is a partition they loose availability, which means **CP** and **CA** are identical. Which furthur means in the event of a partition, what should the system give up, C or A?
+**CP** looses availability only when there is a network partition, **CA** are non partition tolerent and in case there's a partition they loose availability, which means **CP** and **CA** are identical. Which furthur means in the event of a partition, what should the system give up, C or A?
  
-
-Also consider that to get a **higly available system**, a distributed system must replicate data and as soon as a distributed system startes replicating data, _a tradeoff between consistency and latency arises._
+Also consider that to be a **higly available system**, a distributed system must replicate data and as soon as data starts replicating ther arises _a tradeoff between consistency and latency._
 
 #### PACELC Theroem
 
