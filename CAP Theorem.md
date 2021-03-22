@@ -71,4 +71,5 @@ PACELC is an extension of CAP Theorem. If there is a **Partition failure**, prio
 * http://dbmsmusings.blogspot.com/2010/04/problems-with-cap-and-yahoos-little.html
 * https://cacm.acm.org/blogs/blog-cacm/83396-errors-in-database-systems-eventual-consistency-and-the-cap-theorem/fulltext
 * https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d
+* A Critique of the CAP Theorem: https://arxiv.org/pdf/1509.05393.pdf
 
