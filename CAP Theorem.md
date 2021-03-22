@@ -26,7 +26,7 @@ CAP theorem say pick two from **CAP**
 - [x] Consistent
 - [x] Available
  
-  No partition means single node, does not makes sense
+  No partition means single node, does not make sense
 
 
 ▪️ **Lets Pick AP**
