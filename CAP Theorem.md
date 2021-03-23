@@ -61,7 +61,7 @@ PACELC is an extension of CAP Theorem. If there is a **Partition failure**, prio
 | PC/EL | PNUTS        |
 |      | Elastic Serach  |
 |      | Redis |
-|      | Zookeeper |
+| CP   | Zookeeper |
 |      | HBase |
 
 
