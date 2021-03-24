@@ -59,10 +59,13 @@ PACELC is an extension of CAP Theorem. If there is a **Partition failure**, prio
 | PC/EC | MySQL   |
 | PA/EC | MongoDB |
 | PC/EL | PNUTS        |
+
+#### CAP with some DB Systems
 |      | Elastic Serach  |
 |      | Redis |
-| CP   | Zookeeper |
+| CP   | Zookeeper, Mongo |
 |      | HBase |
+| AP   | Cassandra |
 
 
 #### References
