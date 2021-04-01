@@ -16,3 +16,7 @@
 
 ###### Q. How can a TCP window size be allowed to be larger than the maximum size of an ethernet packet? 
 ###### A. https://networkengineering.stackexchange.com/questions/54107/how-can-a-tcp-window-size-be-allowed-to-be-larger-than-the-maximum-size-of-an-et
+
+
+### References
+Networking Fundamentals : https://tomnomnom.com/talks/networking.pdf
