@@ -3,6 +3,19 @@
  
  <img src="https://github.com/santojos/Distributed-Systems/blob/main/Concepts/Networking/OSI-model.png" width="800" height="550">
 
+
+| Layer Name    |Transfer Unit | What it does |
+| ------------- | ------------- |-----------------|
+| Application   | Data  | HTTP, FTP etc |
+| Presentation  | Data  | Encryption! TLS etc |
+| Session       | Data  |   PPTP, SOCKS |
+| Transpot      | Segments | TCP, UDP |
+| Network       | Packets | IP and routing | 
+| Data-link | Frames |  MAC addresses and the like |
+| Physical | Bits |   Electricity on a wire |
+ 
+
+
 **Maximum Frame Size MFU** is the largest frame a network (segment) can transport. For Ethernet, this is **1518 bytes by definition.**
 
 **Maximum Transfer Unit MTU** is MFU - 18 = 1500, The Frame has the IP packet
