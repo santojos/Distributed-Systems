@@ -51,8 +51,32 @@
 * It's the number of one's in the subnet masek
 
 #### Router
-* Has more then one IP per sub network( per subnet)
-* Has more then one network addres ( MAC Address)  
-* Router is connect to multiple subnetwork
+* Has more then one IP per sub network ( per subnet)
+* Has more then one network interface ( MAC Address)  
+* Router is connected to multiple subnets
+
+#### How Router Works
+* Router is connected to all the subnets
+
+##### Machines
+
+| Machine  | MAC   | IP    |      Subnet Mask            |
+|----------|-------|-------|------------------- |
+|   A      | aa:aa:aa:aa:aa:aa | 192.168.0.1        | 255.255.255.0 |
+|   B      | bb:bb:bb:bb:bb:bb | 192.168.1.1        | 255.255.255.0 |
+
+##### Router
+
+| MAC                  |    IP    |      Subnet Mask            |
+|----------------------|--------------|------------------- |
+|   cc:cc:cc:cc:cc:cc  | 192.168.0.254 | 255.255.255.0 |
+|   dd:dd:dd:dd:dd:dd  | 192.168.1.254 | 255.255.255.0 |
+
+* Machine A does not know the MAC address of Machine B, but knows the IP
+* Machine A sends the data to Router's default gateway with Macines B IP and Routers MAC address
+* Router as is connected to all the networks knows the MAC address of machine B, so its modifes the source and destinations MAC
+ 
 
 
+### References
+* https://www.youtube.com/watch?v=9uebakqWlB0&t=356s
