@@ -23,7 +23,7 @@ The IP suite is much simplar then OSI model, its with less layers
 | Layer Name    |Transfer Unit | What it does |
 | ------------- | ------------- |-----------------|
 | Application   | Data  | HTTP, TLS, DNS, SMTP, FTP etc |
-| Transpot      | Segments | TCP, UDP |
+| Transport     | Segments | TCP, UDP |
 | Network       | Packets | IP (v4 and v6) | 
 | Link          | Frames |  Ethernet & Wireless LAN |
 
@@ -32,9 +32,15 @@ The IP suite is much simplar then OSI model, its with less layers
 * The Data is sent to the Router which forwards/sends to another network using the IP protocol
 * The TCP/UDP protocol is used to send data. The Data is broken up into small packets, which are then reassembled at the destination.
 * At application layer we talks about data and how to interpret that data, HTTP is an application layer protocol which talks about data
-
-
  
+
+### Transmission Control Protocol
+* The network is unreliable, TCP adds reliability to IP packets. 
+* TCP adds port, so that one same machine can take part in multiple communication
+* It adds a convention of sending and receiveing acknowledgements
+* Uses SYN, SYN-ACK, ACK, FIN 
+* Its a three ways handshake with SYN, SYN-ACK, ACK 
+
 
 **Maximum Frame Size MFU** is the largest frame a network (segment) can transport. For Ethernet, this is **1518 bytes by definition.**
 
@@ -50,6 +56,10 @@ The IP suite is much simplar then OSI model, its with less layers
 ###### Q. How can a TCP window size be allowed to be larger than the maximum size of an ethernet packet? 
 ###### A. https://networkengineering.stackexchange.com/questions/54107/how-can-a-tcp-window-size-be-allowed-to-be-larger-than-the-maximum-size-of-an-et
 
+###### Q. How Ping works
+###### A. It measures round trip time between source and destinations, It's a utility available on all the OS. It uses ICMP protocol. The source sends ICMP echo request and the destination sends ICMP echo response.
+
 
 ### References
-Networking Fundamentals : https://tomnomnom.com/talks/networking.pdf
+* Networking Fundamentals : https://tomnomnom.com/talks/networking.pdf
+* Networking with the basics :  https://www.youtube.com/watch?v=XaGXPObx2Gs&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW
