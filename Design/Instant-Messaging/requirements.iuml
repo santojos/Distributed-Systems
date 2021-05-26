@@ -30,7 +30,7 @@
 *** Kafka
 *** MySql
 *** Push Notification
-**** FCM : (FireBase Notification or Google Notification Service)
+**** FCM 
 ---- IOS Notification
 *** Serverless
 
@@ -39,15 +39,15 @@
 *** CPU, RAM, Network Bandwidth
 
 ** Non Functional Requirements
-*** Latency should be low
+*** Low Latency
 *** Highly Available
-*** Security or Encryption
-*** Compression
+*** Secure
+*** Data Compression Compression
 *** BackUp and Restore
 
 
 ** Deployment Model
-*** Say 40 datacenters across world
-*** Monitoring/Alerting
+*** say 100 DC
+--- Monitoring/Alerting
 
 @endwbs
