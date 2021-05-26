@@ -1,0 +1,17 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+
+caption Connections
+title Connection title
+
+* Connections
+** Regular HTTP
+** AJAX
+** Long Polling
+** WebSockets
+** BOSH
+** Commet
+** Server Side Events
+
+@endmindmap
