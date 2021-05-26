@@ -1,0 +1,22 @@
+@startwbs
+'https://plantuml.com/wbs-diagram
+
+* Extensible Messaging and Presence Protocol or XMPP
+** Protocol
+***_ Defines set of standard \n that allow system to talk
+** Presence
+***_ Tells whether you are \n online/offline/busy
+** Messaging
+***_ Instant Messaging in Real time
+** Extensible
+***_ Open Standard that can grow or evolve
+***_ XMPP is designed to be extensible
+
+** Who uses XMPP
+*** Firebase Cloud Messaging
+*** Home Automation :  \nhttps://www.logitech.com/en-us/products/harmony/harmony-hub.915-000238.html
+*** Slack
+*** Whatsapp
+*** Jabber
+
+@endwbs
