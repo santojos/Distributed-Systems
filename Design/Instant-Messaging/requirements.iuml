@@ -1,0 +1,53 @@
+@startwbs
+'https://plantuml.com/wbs-diagram
+
+* What's App Design
+** Functional Requirements
+*** One to one Chat
+**** Meessage Status
+**** Sent, Delivered, Read
+**** Message Type
+***** Text, Audio, Video, Location
+**** Last Seen or when Online
+**** User is Typing....
+--- Group Chat
+*** Register
+*** Profile
+**** Status
+**** Photo
+*** Friends List/ Recent Chat
+
+
+
+** Actors
+*** Mobile Device
+--- Web
+
+** Technology
+*** XMPP
+*** WEBRTC
+*** Ejabberd
+*** Kafka
+*** MySql
+*** Push Notification
+**** FCM : (FireBase Notification or Google Notification Service)
+---- IOS Notification
+*** Serverless
+
+** Machine
+*** What kind of Machine to Use
+*** CPU, RAM, Network Bandwidth
+
+** Non Functional Requirements
+*** Latency should be low
+*** Highly Available
+*** Security or Encryption
+*** Compression
+*** BackUp and Restore
+
+
+** Deployment Model
+*** Say 40 datacenters across world
+*** Monitoring/Alerting
+
+@endwbs
