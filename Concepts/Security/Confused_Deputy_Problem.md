@@ -28,6 +28,11 @@ So, X makes a plan. He opens an FTP connection to middle-man.com. And then, inst
 
 Attacker exploits the FTP server running in passive mode, Here FTP server is the confused deputy, 
 
+### How To prevent 
+
+In this an unforgable token of authority is assigned to a user and the token contains a set of user access rights granted to program.
+
+
 ### References
 * FTP Bounce Attack : https://www.thesecuritybuddy.com/vulnerabilities/what-is-ftp-bounce-attack/
 * How FTP works https://afteracademy.com/blog/what-is-ftp-and-how-does-an-ftp-work
