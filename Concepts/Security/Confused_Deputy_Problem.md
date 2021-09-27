@@ -5,7 +5,7 @@ Whenever a person/agent/computer program/process or anyting whose authority is n
 
 ### Real Life Examples for Confused Deputy Problem
 
-* Cross-site request forgeryucts 
+* Cross-site request forgery
 * Clickjacking
 * FTP Bounce Attack
 
