@@ -20,6 +20,6 @@ Early traditional daabases guarantees below properties. ACID properties provide 
 #### Durability (D)
   Once a transaction is complete the results should be persisted and never lost
   
-### Isolatin level and concurrency Control
+### Isolation level and concurrency Control
   
  
