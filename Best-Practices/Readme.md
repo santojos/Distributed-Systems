@@ -42,4 +42,4 @@ Facilitate continuous deployment by ensuring that development, staging, and prod
 
 
 ### Container Best Practices
-A collaborative project to document container-based application architecture, creation and management from Project Atomic.
+   http://docs.projectatomic.io/container-best-practices/
