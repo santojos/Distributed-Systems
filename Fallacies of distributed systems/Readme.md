@@ -40,7 +40,7 @@ Some good explanation with examples follows here -> https://pages.cs.wisc.edu/~z
 [Gist & Visualization of above](http://gist.github.com/f48b7279a8fde3341b159aee47fefc75 "Gist & visualization")
  
 
-Consider below to decrese latency
+Consider below to decrease latency
 * Avoid cross regional calls 
 * Use CDN
 * Use in memory Caching
