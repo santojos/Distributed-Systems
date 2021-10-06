@@ -1,7 +1,5 @@
 ## Custom Logging Solution to Send container Logs to A Storage Server 
 
-### DRAFT 
-
 Putting some thoughts on how to design solution to send logs to a storage server like Elastic server.
 or like how to design a system like fluendt or logstash. We need near real time logs on storage server
 
